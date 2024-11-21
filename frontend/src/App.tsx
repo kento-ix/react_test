@@ -7,14 +7,19 @@ import NavBar from './layouts/header';
 
 function App() {
   return (
-    <>
-      <NavBar/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/myinfo" element={<Myinfo />} />
-      </Routes>
-    </>
+    <div className='authPage h-screen'>
+
+    </div>
   );
 }
 
 export default App;
+
+/*
+
+<NavBar/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/myinfo" element={<Myinfo />} />
+      </Routes>
+*/
