@@ -6,12 +6,13 @@ import Myinfo from './pages/myinfo';
 import NavBar from './layouts/header';
 
 import Login from './auth/login';
+import Register from './auth/register';
 
 function App() {
   return (
     <div className='authPage h-screen'>
-      <div className='flex justify-end items-center'>
-        <Login/>
+      <div className='flex justify-center items-center pt-32'>
+        <Register/>
       </div>
     </div>
   );
